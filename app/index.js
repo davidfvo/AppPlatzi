@@ -67,8 +67,7 @@ export default class App extends Component {
       console.warn("Error en MovieSection Service: " + err)
     }
   }
-
-  componentWillMount() {
+  componentDidMount() {
     const videoURL = video.bigBunny
     store.dispatch({
       type: 'SET_BIGBUNNY_VIDEO',

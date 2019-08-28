@@ -71,7 +71,7 @@ class CategorySection extends Component {
             <LoaderComponent color={"black"} />
         )
     }
-    componentWillMount() {
+    componentDidMount(){
         this._CategoryList()
     }
     componentWillUnmount() {

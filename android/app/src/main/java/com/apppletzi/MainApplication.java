@@ -1,4 +1,4 @@
-package com.newversion;
+package com.apppletzi;
 
 import android.app.Application;
 import android.util.Log;

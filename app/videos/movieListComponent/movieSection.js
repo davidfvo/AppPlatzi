@@ -85,7 +85,7 @@ export class MovieSection extends Component {
             <LoaderComponent color={"green"} />
         )
     }
-    componentWillMount() {
+    componentDidMount() {
         this._movieList()
     }
     componentWillUnmount() {
